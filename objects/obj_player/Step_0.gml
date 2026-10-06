@@ -3,12 +3,12 @@
 	
 	if(keyboard_check(vk_right)){
 		hspd = velocidade_x
-		direita = true
+		global.direita = true
 		image_xscale = 1
 	}
 	if(keyboard_check(vk_left)){
 		hspd = -velocidade_x
-		direita = false
+		global.direita = false
 		image_xscale = -1
 	}
 	
@@ -35,8 +35,12 @@
 	}
 		
 	if(keyboard_check_pressed(vk_space) && tocando_chao == true){
-		if(direita == true){
-			instance_create_layer(x + 5, y,camada_projetil, obj_tiro_player)
+		atirando = true
+		alarm_set(0, 30)
+		if(global.direita == true){
+			instance_create_layer(x + 5, y,"camada_projetil", obj_tiro_player)
+		}else{
+			instance_create_layer(x - 5, y,"camada_projetil", obj_tiro_player)
 		}
 	}
 #endregion
@@ -61,6 +65,7 @@
 #endregion
 
 #region sprites
+if(atirando = false){
 	if(!tocando_chao){
 		if(velocidade_y < 0){
 			sprite_index = spr_player_jump
@@ -72,6 +77,7 @@
 	}else{
 		sprite_index = spr_player_idle
 	}
+}
 #endregion
 
 #region colisao inimigo
@@ -96,7 +102,7 @@
 		
 		// empurra pro lado oposto de onde o inimigo está
 		var dir = sign(x - inimigo.x)
-		if(dir == 0) dir = direita ? -1 : 1
+		if(dir == 0) dir = global.direita ? -1 : 1
 
 		knockback_x = dir * empurram_x
 		velocidade_y = -empurram_y

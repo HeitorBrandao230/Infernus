@@ -6,8 +6,8 @@
   "name":"obj_config_fundo",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"config",
+    "path":"folders/Objetos/config.yy",
   },
   "parentObjectId":null,
   "persistent":false,

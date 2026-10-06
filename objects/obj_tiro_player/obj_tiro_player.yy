@@ -1,21 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"Object4",
+  "%Name":"obj_tiro_player",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_config_inimigo","path":"objects/obj_config_inimigo/obj_config_inimigo.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Object4",
+  "name":"obj_tiro_player",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"projetil",
+    "path":"folders/Objetos/projetil.yy",
   },
-  "parentObjectId":{
-    "name":"obj_config_inimigo",
-    "path":"objects/obj_config_inimigo/obj_config_inimigo.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -34,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_inimigo_goblin_idle",
-    "path":"sprites/spr_inimigo_goblin_idle/spr_inimigo_goblin_idle.yy",
+    "name":"spr_tiro_player",
+    "path":"sprites/spr_tiro_player/spr_tiro_player.yy",
   },
   "spriteMaskId":null,
   "visible":true,
