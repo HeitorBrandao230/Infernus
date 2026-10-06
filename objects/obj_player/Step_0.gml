@@ -33,6 +33,12 @@
 		velocidade_y = -forca_pulo
 		pulos += 1
 	}
+		
+	if(keyboard_check_pressed(vk_space) && tocando_chao == true){
+		if(direita == true){
+			instance_create_layer(x + 5, y,camada_projetil, obj_tiro_player)
+		}
+	}
 #endregion
 
 #region gravidade
@@ -105,3 +111,4 @@ if(global.vida >= 8){
 	global.vida = 7
 }
 #endregion
+
