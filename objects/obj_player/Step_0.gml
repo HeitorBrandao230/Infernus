@@ -12,6 +12,11 @@
 		image_xscale = -1
 	}
 	
+	hspd += knockback_x
+	knockback_x = lerp(knockback_x, 0, 0.1) // vai diminuindo
+	if(abs(knockback_x) < 0.1) knockback_x = 0
+	
+	
 	// colisão horizontal (pixel a pixel)
 	if(place_meeting(x + hspd, y, tilemap_chao)){
 		while(!place_meeting(x + sign(hspd), y, tilemap_chao)){
@@ -61,4 +66,42 @@
 	}else{
 		sprite_index = spr_player_idle
 	}
+#endregion
+
+#region colisao inimigo
+	// contagem da invencibilidade
+	if(invencivel){
+		timer_invencivel -= 1
+		
+		// pisca o player pra dar feedback visual
+		image_alpha = (timer_invencivel mod 6 < 3) ? 0.4 : 1
+		
+		if(timer_invencivel <= 0){
+			invencivel = false
+			image_alpha = 1
+		}
+	}
+	
+	var inimigo = instance_place(x, y, obj_config_inimigo)
+	if(inimigo != noone && !invencivel){
+		global.vida -= 1
+		invencivel = true
+		timer_invencivel = tempo_invencivel
+		
+		// empurra pro lado oposto de onde o inimigo está
+		var dir = sign(x - inimigo.x)
+		if(dir == 0) dir = direita ? -1 : 1
+
+		knockback_x = dir * empurram_x
+		velocidade_y = -empurram_y
+	}
+#endregion
+
+#region vida
+if(global.vida <= 0){
+	room_restart()
+}
+if(global.vida >= 8){
+	global.vida = 7
+}
 #endregion
