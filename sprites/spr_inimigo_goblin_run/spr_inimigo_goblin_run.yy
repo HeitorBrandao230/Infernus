@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_player_goblin_run",
+  "%Name":"spr_inimigo_goblin_run",
   "bboxMode":0,
   "bbox_bottom":7,
   "bbox_left":1,
@@ -22,19 +22,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"158b194d-346e-4c19-8a44-a160bb8120c6","blendMode":0,"displayName":"default","isLocked":false,"name":"158b194d-346e-4c19-8a44-a160bb8120c6","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_player_goblin_run",
+  "name":"spr_inimigo_goblin_run",
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"inimigo",
-    "path":"folders/Sprites/inimigo.yy",
+    "name":"golbin",
+    "path":"folders/Sprites/inimigo/golbin.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_player_goblin_run",
+    "%Name":"spr_inimigo_goblin_run",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -58,7 +58,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_player_goblin_run",
+    "name":"spr_inimigo_goblin_run",
     "playback":1,
     "playbackSpeed":5.0,
     "playbackSpeedType":0,
@@ -70,10 +70,10 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b71b3296-dbe2-4660-a8fc-fe7ddc36550d","path":"sprites/spr_player_goblin_run/spr_player_goblin_run.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b71b3296-dbe2-4660-a8fc-fe7ddc36550d","path":"sprites/spr_inimigo_goblin_run/spr_inimigo_goblin_run.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"25d07fd6-a5c7-4be8-a8da-49f3f622dc5c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b61bda03-a08d-43c8-950c-c01235aaa7b0","path":"sprites/spr_player_goblin_run/spr_player_goblin_run.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b61bda03-a08d-43c8-950c-c01235aaa7b0","path":"sprites/spr_inimigo_goblin_run/spr_inimigo_goblin_run.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"0808d3b0-25be-4dbb-8a22-ebf66708f4d3","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

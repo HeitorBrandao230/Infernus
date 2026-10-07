@@ -27,7 +27,7 @@
   "origin":4,
   "parent":{
     "name":"tiro_player",
-    "path":"folders/Sprites/player/tiro_player.yy",
+    "path":"folders/Sprites/porjetil/tiro_player.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

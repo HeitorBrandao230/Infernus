@@ -1,12 +1,12 @@
 #region movimentos
     var hspd = 0
 
-    if(keyboard_check(vk_right)){
+    if(keyboard_check(vk_right) && atirando == false){
         hspd = velocidade_x
         global.direita = true
         image_xscale = 1
     }
-    if(keyboard_check(vk_left)){
+    if(keyboard_check(vk_left) && atirando == false){
         hspd = -velocidade_x
         global.direita = false
         image_xscale = -1
@@ -28,7 +28,7 @@
     andando = (hspd != 0)
 
     // pulo
-    if(keyboard_check_pressed(vk_up) && pulos < max_pulos){
+    if(keyboard_check_pressed(vk_up) && pulos < max_pulos && atirando == false){
         velocidade_y = -forca_pulo
         pulos += 1
     }
@@ -36,11 +36,11 @@
     if(keyboard_check_pressed(vk_space) && tocando_chao == true){
         atirando = true
 		sprite_index = spr_player_shot
-        alarm_set(0, 30)
+        alarm_set(0, 15)
         if(global.direita == true){
-            instance_create_layer(x + 5, y,"camada_projetil", obj_tiro_player)
+            instance_create_layer(x + 6, y,"camada_projetil", obj_tiro_player)
         }else{
-            instance_create_layer(x - 5, y,"camada_projetil", obj_tiro_player)
+            instance_create_layer(x - 6, y,"camada_projetil", obj_tiro_player)
         }
     }
 #endregion
