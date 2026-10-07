@@ -38,9 +38,9 @@
 		sprite_index = spr_player_shot
         alarm_set(0, 15)
         if(global.direita == true){
-            instance_create_layer(x + 6, y,"camada_projetil", obj_tiro_player)
+            instance_create_layer(x + 6, y,"camada_projeteis", obj_tiro_player)
         }else{
-            instance_create_layer(x - 6, y,"camada_projetil", obj_tiro_player)
+            instance_create_layer(x - 6, y,"camada_projeteis", obj_tiro_player)
         }
     }
 #endregion

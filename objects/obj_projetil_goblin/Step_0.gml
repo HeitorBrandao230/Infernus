@@ -1,0 +1,29 @@
+if(direita == true){
+	x -= velocidade
+}else{
+	x += velocidade
+}
+alarm_set(0, temp)
+
+#region gravidade
+    if(!place_meeting(x, y + 1, tilemap_chao)){
+        velocidade_y += grav
+        tocando_chao = false
+    }else{
+        tocando_chao = true
+    }
+
+    // colisão vertical (pixel a pixel)
+    if(place_meeting(x, y + velocidade_y, tilemap_chao)){
+        while(!place_meeting(x, y + sign(velocidade_y), tilemap_chao)){
+            y += sign(velocidade_y)
+        }
+        velocidade_y = 0
+    }
+    y += velocidade_y
+	
+	if(tocando_chao == true){
+		velocidade = 0
+		dano = false
+	}
+#endregion

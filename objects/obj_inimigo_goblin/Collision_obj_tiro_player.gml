@@ -1,1 +1,1 @@
-vida--
+vida -= global.dano

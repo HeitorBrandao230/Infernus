@@ -12,6 +12,7 @@ knockback_x = 0
 global.vida = 3
 atirando = false
 global.moedas = 0
+global.dano = 1
 
 invencivel = false
 tempo_invencivel = 60 // frames (1 segundo a 60 fps)
