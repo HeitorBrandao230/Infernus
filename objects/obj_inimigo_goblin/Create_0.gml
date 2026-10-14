@@ -4,6 +4,11 @@ vida = 3
 hsp = 1;        // velocidade horizontal
 vsp = 0;        // velocidade vertical
 grv = 0.3;      // gravidade
-dir = 1;        // 1 = direita, -1 = esquerda
 
+var cont = irandom_range(1, 2)
+if(cont == 1){
+	dir = 1;        // 1 = direita, -1 = esquerda
+}else{
+	dir = -1
+}
 tilemap_chao = layer_tilemap_get_id(layer_get_id("Tiles_1"));

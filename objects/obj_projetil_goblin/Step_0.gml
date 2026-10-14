@@ -3,7 +3,6 @@ if(direita == true){
 }else{
 	x += velocidade
 }
-alarm_set(0, temp)
 
 #region gravidade
     if(!place_meeting(x, y + 1, tilemap_chao)){
@@ -22,8 +21,11 @@ alarm_set(0, temp)
     }
     y += velocidade_y
 	
-	if(tocando_chao == true){
-		velocidade = 0
-		dano = false
-	}
+if(tocando_chao == true){
+    velocidade = 0
+    dano = false
+    if(alarm_get(1) <= 0){
+        alarm_set(1, 30)
+    }
+}
 #endregion
