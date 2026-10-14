@@ -1,3 +1,14 @@
+#region vida
+if(global.vida <= 0){
+    global.vida = 3
+    room_restart()
+    exit
+}
+if(global.vida >= 8){
+    global.vida = 7
+}
+#endregion
+
 #region movimentos
     var hspd = 0
 
@@ -107,15 +118,6 @@ if(atirando = false){
         knockback_x = dir * empurram_x
         velocidade_y = -empurram_y
     }
-#endregion
-
-#region vida
-if(global.vida <= 0){
-    room_restart()
-}
-if(global.vida >= 8){
-    global.vida = 7
-}
 #endregion
 
 #region powerUP

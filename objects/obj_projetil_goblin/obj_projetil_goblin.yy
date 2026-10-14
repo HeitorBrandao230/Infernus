@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_projetil_goblin",
-    "path":"sprites/spr_projetil_goblin/spr_projetil_goblin.yy",
+    "name":"spr_projetil_demonio",
+    "path":"sprites/spr_projetil_demonio/spr_projetil_demonio.yy",
   },
   "spriteMaskId":null,
   "visible":true,
