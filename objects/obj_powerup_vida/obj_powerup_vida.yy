@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_powerup_vida",
-    "path":"sprites/spr_powerup_vida/spr_powerup_vida.yy",
+    "name":"spr_coracao",
+    "path":"sprites/spr_coracao/spr_coracao.yy",
   },
   "spriteMaskId":null,
   "visible":true,

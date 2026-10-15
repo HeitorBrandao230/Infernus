@@ -1,6 +1,5 @@
 #region Vida
 	if(vida <= 0){
-		instance_create_layer(x, y, "Instances", obj_powerup_vida);
 		instance_destroy();
 	}
 #endregion

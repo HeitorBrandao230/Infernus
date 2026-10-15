@@ -1,18 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_projetil_goblin",
+  "%Name":"obj_coletavel_alma",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_projetil_goblin",
+  "name":"obj_coletavel_alma",
   "overriddenProperties":[],
   "parent":{
-    "name":"projetil",
-    "path":"folders/Objetos/projetil.yy",
+    "name":"coletaveis",
+    "path":"folders/Objetos/coletaveis.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_projetil_demonio",
-    "path":"sprites/spr_projetil_demonio/spr_projetil_demonio.yy",
+    "name":"spr_coletavel_alma",
+    "path":"sprites/spr_coletavel_alma/spr_coletavel_alma.yy",
   },
   "spriteMaskId":null,
   "visible":true,

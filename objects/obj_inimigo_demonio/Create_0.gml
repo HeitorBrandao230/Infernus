@@ -1,4 +1,6 @@
-vida = 3
+vida = 2
+image_xscale = 1.25
+image_yscale = 1.25
 
 
 hsp = 1;        // velocidade horizontal
@@ -11,4 +13,4 @@ if(cont == 1){
 }else{
 	dir = -1
 }
-tilemap_chao = layer_tilemap_get_id(layer_get_id("Tiles_1"));
+tilemap_chao = layer_tilemap_get_id(layer_get_id("Tile_chao"));

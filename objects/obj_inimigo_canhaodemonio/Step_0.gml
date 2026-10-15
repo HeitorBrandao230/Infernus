@@ -10,19 +10,16 @@
 
 #region atirar
 	if(obj_player.x >= x - raio && obj_player.x <= x + raio){
-		show_debug_message("entrou no raio")
 		if(temp == false){
 			temp = true
 			if(direita == true){
-				instance_create_layer(x-8, y+3,"camada_projeteis",obj_projetil_goblin)
+				instance_create_layer(x-8, y+6,"camada_projeteis",obj_projetil_demonio)
 			}else{
-				instance_create_layer(x+8, y+3,"camada_projeteis",obj_projetil_goblin)
+				instance_create_layer(x+8, y+6,"camada_projeteis",obj_projetil_demonio)
 			}
 			sprite_index = spr_inimigo_canhaodemonio_vazio
 			alarm_set(0, couldawn/2)
 			}
-	}else{
-		show_debug_message("saiu do raio")
 	}
 
 #endregion
@@ -47,7 +44,7 @@
 
 #region Vida
 	if(vida <= 0){
-		instance_create_layer(x, y, "Instances", obj_powerup_vida);
+		instance_create_layer(x, y, "camada_powerUP", obj_powerup_vida);
 		instance_destroy();
 	}
 #endregion

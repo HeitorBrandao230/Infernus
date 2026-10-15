@@ -17,4 +17,4 @@ invencivel = false
 tempo_invencivel = 60 // frames (1 segundo a 60 fps)
 timer_invencivel = 0
 
-tilemap_chao = layer_tilemap_get_id(layer_get_id("Tiles_1"));
+tilemap_chao = layer_tilemap_get_id(layer_get_id("Tile_chao"));
