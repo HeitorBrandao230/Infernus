@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"golbin",
-    "path":"folders/Sprites/inimigo/golbin.yy",
+    "name":"demonio_run",
+    "path":"folders/Sprites/inimigo/demonio_run.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

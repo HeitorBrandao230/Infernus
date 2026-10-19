@@ -2,6 +2,7 @@ if(vida <= 0){
 instance_destroy()
 instance_create_layer(x,y,"camada_coletaveis", obj_coletavel_alma)
 }
+	
 
 if(x <= obj_player.x){
 	image_xscale = 1

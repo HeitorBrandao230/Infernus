@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_coracao",
-    "path":"sprites/spr_coracao/spr_coracao.yy",
+    "name":"spr_zcoracao_demonio",
+    "path":"sprites/spr_zcoracao_demonio/spr_zcoracao_demonio.yy",
   },
   "spriteMaskId":null,
   "visible":true,

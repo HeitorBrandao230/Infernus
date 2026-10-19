@@ -2,6 +2,9 @@ grav = 0.5
 velocidade_x = 2
 velocidade_y = 0
 forca_pulo = 6
+velocidade_x_padrao = 2
+direita = true   // ou false, a direção inicial
+dir = 0
 
 tocando_chao = false
 pulos = 0
