@@ -19,3 +19,6 @@ if(global.vida >= 6){
 if(global.vida >= 7){
 	draw_sprite(spr_vidaextra, 0 , 160 , 30)
 }
+
+draw_set_font(global.fnt_inferno);
+draw_text(obj_player.x, obj_player.y, "ALMAS: 12");
