@@ -10,8 +10,8 @@
   "name":"obj_inimigo_coracao",
   "overriddenProperties":[],
   "parent":{
-    "name":"demonio",
-    "path":"folders/Objetos/inimigos/demonio.yy",
+    "name":"coracao",
+    "path":"folders/Objetos/inimigos/coracao.yy",
   },
   "parentObjectId":{
     "name":"obj_config_inimigo",
