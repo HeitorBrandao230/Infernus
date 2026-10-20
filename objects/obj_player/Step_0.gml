@@ -136,3 +136,9 @@ if(atirando == false){
 	velocidade_x = velocidade_x_padrao
 	}
 #endregion
+
+#region colisao lava
+	if(place_meeting(x,y, obj_lava)){
+	global.vida = 0
+	}
+#endregion
