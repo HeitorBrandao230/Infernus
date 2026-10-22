@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
   "%Name":"spr_inimigo_olho",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":19,
-  "bbox_left":0,
-  "bbox_right":19,
+  "bbox_left":11,
+  "bbox_right":29,
   "bbox_top":0,
   "collisionKind":2,
   "collisionTolerance":0,
@@ -23,7 +23,7 @@
   ],
   "name":"spr_inimigo_olho",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"olho",
     "path":"folders/Sprites/inimigo/olho.yy",
@@ -75,7 +75,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":10,
+    "xorigin":20,
     "yorigin":10,
   },
   "swatchColours":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":20,
+  "width":30,
 }

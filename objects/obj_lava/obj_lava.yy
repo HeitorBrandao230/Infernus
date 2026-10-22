@@ -6,8 +6,8 @@
   "name":"obj_lava",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"obstaculos",
+    "path":"folders/Objetos/obstaculos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
