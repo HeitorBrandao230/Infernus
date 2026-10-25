@@ -79,7 +79,7 @@
           -37,49,1,268435529,-5,0,2,72,50,-48,49,1,268435529,-4,0,1,72,-50,49,1,268435529,-4,0,1,73,-50,49,1,268435530,
           -4,0,1,73,-51,49,-4,0,1,74,-51,49,-4,0,-52,49,-4,0,-48,49,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tile_chao","path":"tilesets/tile_chao/tile_chao.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":1200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.1,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"Pink","path":"sprites/Pink/Pink.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.5,"vtiled":true,"x":0,"y":0,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":1200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.1,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_fundo_vermelho","path":"sprites/spr_fundo_vermelho/spr_fundo_vermelho.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.5,"vtiled":true,"x":0,"y":0,},
   ],
   "name":"Andar_5",
   "parent":{

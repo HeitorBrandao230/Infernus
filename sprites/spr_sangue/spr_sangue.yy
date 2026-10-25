@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"liguidos",
+    "path":"folders/Sprites/liguidos.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
