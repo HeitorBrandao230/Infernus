@@ -1,0 +1,1 @@
+global.botao_azul = true
