@@ -114,6 +114,7 @@
     {"id":{"name":"Andar_5","path":"rooms/Andar_5/Andar_5.yy",},},
     {"id":{"name":"Andar_6","path":"rooms/Andar_6/Andar_6.yy",},},
     {"id":{"name":"Andar_7","path":"rooms/Andar_7/Andar_7.yy",},},
+    {"id":{"name":"Andar_8","path":"rooms/Andar_8/Andar_8.yy",},},
     {"id":{"name":"config","path":"sprites/config/config.yy",},},
     {"id":{"name":"fonte_capeta_maiuscula","path":"sprites/fonte_capeta_maiuscula/fonte_capeta_maiuscula.yy",},},
     {"id":{"name":"fonte_capeta_minuscula","path":"sprites/fonte_capeta_minuscula/fonte_capeta_minuscula.yy",},},
@@ -178,6 +179,7 @@
     {"roomId":{"name":"Andar_5","path":"rooms/Andar_5/Andar_5.yy",},},
     {"roomId":{"name":"Andar_6","path":"rooms/Andar_6/Andar_6.yy",},},
     {"roomId":{"name":"Andar_7","path":"rooms/Andar_7/Andar_7.yy",},},
+    {"roomId":{"name":"Andar_8","path":"rooms/Andar_8/Andar_8.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
