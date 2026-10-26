@@ -123,6 +123,7 @@
     {"id":{"name":"Andar_7","path":"rooms/Andar_7/Andar_7.yy",},},
     {"id":{"name":"Andar_8","path":"rooms/Andar_8/Andar_8.yy",},},
     {"id":{"name":"Andar_9","path":"rooms/Andar_9/Andar_9.yy",},},
+    {"id":{"name":"FIM","path":"rooms/FIM/FIM.yy",},},
     {"id":{"name":"config","path":"sprites/config/config.yy",},},
     {"id":{"name":"fonte_capeta_maiuscula","path":"sprites/fonte_capeta_maiuscula/fonte_capeta_maiuscula.yy",},},
     {"id":{"name":"fonte_capeta_minuscula","path":"sprites/fonte_capeta_minuscula/fonte_capeta_minuscula.yy",},},
@@ -178,6 +179,7 @@
     {"id":{"name":"spr_projetil_demonio","path":"sprites/spr_projetil_demonio/spr_projetil_demonio.yy",},},
     {"id":{"name":"spr_raio","path":"sprites/spr_raio/spr_raio.yy",},},
     {"id":{"name":"spr_sangue","path":"sprites/spr_sangue/spr_sangue.yy",},},
+    {"id":{"name":"spr_tela_fim","path":"sprites/spr_tela_fim/spr_tela_fim.yy",},},
     {"id":{"name":"spr_tileset","path":"sprites/spr_tileset/spr_tileset.yy",},},
     {"id":{"name":"spr_tiro_player","path":"sprites/spr_tiro_player/spr_tiro_player.yy",},},
     {"id":{"name":"spr_vidaextra","path":"sprites/spr_vidaextra/spr_vidaextra.yy",},},
@@ -195,6 +197,7 @@
     {"roomId":{"name":"Andar_7","path":"rooms/Andar_7/Andar_7.yy",},},
     {"roomId":{"name":"Andar_8","path":"rooms/Andar_8/Andar_8.yy",},},
     {"roomId":{"name":"Andar_9","path":"rooms/Andar_9/Andar_9.yy",},},
+    {"roomId":{"name":"FIM","path":"rooms/FIM/FIM.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
