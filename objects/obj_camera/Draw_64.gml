@@ -30,6 +30,6 @@ var larg = sprite_get_width(spr_coletavel_alma) * escala;
 
 draw_set_halign(fa_left);
 draw_set_valign(fa_middle);
-draw_text_transformed(px + larg / 2 + 10, py, string(global.conta_alma), escala, escala, 0);
+draw_text_transformed(px + larg / 2 + 10, py, string(global.conta_alma + global.conta_alma_aparente), escala, escala, 0);
 
 draw_set_valign(fa_top);

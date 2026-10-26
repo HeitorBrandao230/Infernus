@@ -1,4 +1,2 @@
-/// @DnDAction : YoYo Games.Rooms.Next_Room
-/// @DnDVersion : 1
-/// @DnDHash : 2BA6EC71
+global.conta_alma = global.conta_alma + global.conta_alma_aparente
 room_goto_next();
