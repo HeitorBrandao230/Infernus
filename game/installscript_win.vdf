@@ -1,0 +1,132 @@
+"InstallScript"
+{
+	"Registry"
+	{
+		"HKEY_CLASSES_ROOT\\.ase"
+		{
+			"string"
+			{
+				"(Default)"		"AsepriteFile"
+			}
+		}
+		"HKEY_CLASSES_ROOT\\.aseprite"
+		{
+			"string"
+			{
+				"(Default)"		"AsepriteFile"
+			}
+		}
+		"HKEY_CLASSES_ROOT\\.aseprite-extension"
+		{
+			"string"
+			{
+				"(Default)"		"AsepriteExtension"
+			}
+		}
+		"HKEY_CLASSES_ROOT\\AsepriteFile"
+		{
+			"string"
+			{
+				"(Default)"		"Aseprite Sprite"
+			}
+		}
+		"HKEY_CLASSES_ROOT\\AsepriteFile\\DefaultIcon"
+		{
+			"string"
+			{
+				"(Default)"		"%INSTALLDIR%\\Aseprite.EXE,1"
+			}
+		}
+		"HKEY_CLASSES_ROOT\\AsepriteFile\\shell\\open\\command"
+		{
+			"string"
+			{
+				"(Default)"		"\"%INSTALLDIR%\\Aseprite.EXE\""
+			}
+		}
+		"HKEY_CLASSES_ROOT\\AsepriteFile\\shell\\open\\ddeexec"
+		{
+			"string"
+			{
+				"(Default)"		"[open(\"%1\")]"
+			}
+		}
+		"HKEY_CLASSES_ROOT\\AsepriteFile\\shell\\open\\ddeexec\\application"
+		{
+			"string"
+			{
+				"(Default)"		"Aseprite"
+			}
+		}
+		"HKEY_CLASSES_ROOT\\AsepriteFile\\shell\\open\\ddeexec\\topic"
+		{
+			"string"
+			{
+				"(Default)"		"system"
+			}
+		}
+		"HKEY_CLASSES_ROOT\\AsepriteExtension"
+		{
+			"string"
+			{
+				"(Default)"		"Aseprite Extension"
+			}
+		}
+		"HKEY_CLASSES_ROOT\\AsepriteExtension\\DefaultIcon"
+		{
+			"string"
+			{
+				"(Default)"		"%INSTALLDIR%\\Aseprite.EXE,2"
+			}
+		}
+		"HKEY_CLASSES_ROOT\\AsepriteExtension\\shell\\open\\command"
+		{
+			"string"
+			{
+				"(Default)"		"\"%INSTALLDIR%\\Aseprite.EXE\""
+			}
+		}
+		"HKEY_CLASSES_ROOT\\AsepriteExtension\\shell\\open\\ddeexec"
+		{
+			"string"
+			{
+				"(Default)"		"[open(\"%1\")]"
+			}
+		}
+		"HKEY_CLASSES_ROOT\\AsepriteExtension\\shell\\open\\ddeexec\\application"
+		{
+			"string"
+			{
+				"(Default)"		"Aseprite"
+			}
+		}
+		"HKEY_CLASSES_ROOT\\AsepriteExtension\\shell\\open\\ddeexec\\topic"
+		{
+			"string"
+			{
+				"(Default)"		"system"
+			}
+		}
+	}
+	"Run Process"
+	{
+		"ThumbnailerInstalled"
+		{
+			"HasRunKey"		"HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\431730"
+			"process 1"		"regsvr32.exe"
+			"command 1"		"/s \"%INSTALLDIR%\\aseprite-thumbnailer.dll\""
+		}
+	}
+	"Run Process On Uninstall"
+	{
+		"ThumbnailerInstalled"
+		{
+			"process 1"		"regsvr32.exe"
+			"command 1"		"/s /u \"%INSTALLDIR%\\aseprite-thumbnailer.dll\""
+		}
+	}
+}
+"kvsignatures"
+{
+	"InstallScript"		"8141422d33bad7b09800d96b77fc0301571b1a23cdb212f8a06041f3a2e019e401c6db6405c552c68dce03ec87a6304c2168085ae20256b40228a6d89aec54f33ae884da4b93736f908c6261965b6ca0471e65baced1958f63d42665fc34794b488929c50c5549c1e7260da937dead35529d1729190696662c7290cd4ec1a66d"
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "name": "public",
+    "description": "",
+    "protected": false,
+    "build_id": 19770864,
+    "time_updated": 1756386560
+  },
+  {
+    "name": "local",
+    "description": "Local Content Server",
+    "protected": false,
+    "build_id": 1070323,
+    "time_updated": 1460476737
+  },
+  {
+    "name": "v1.1.13",
+    "description": "OLD Aseprite v1.1.13 (supports WinXP)",
+    "protected": false,
+    "build_id": 2160076,
+    "time_updated": 1506708391
+  },
+  {
+    "name": "v1.2.40",
+    "description": "OLD Aseprite v1.2.40",
+    "protected": false,
+    "build_id": 9903855,
+    "time_updated": 1701092319
+  },
+  {
+    "name": "beta",
+    "description": "v1.3 Beta version - Preview new features",
+    "protected": false,
+    "build_id": 19770864,
+    "time_updated": 1756386539
+  },
+  {
+    "name": "v1.3",
+    "description": "Previous Aseprite v1.3.13",
+    "protected": false,
+    "build_id": 17518207,
+    "time_updated": 1749588297
+  },
+  {
+    "name": "v1.3.14-beta1",
+    "description": "Previous Aseprite v1.3.14-beta1 (supports Win7)",
+    "protected": false,
+    "build_id": 17518214,
+    "time_updated": 1749612366
+  }
+]
