@@ -1,6 +1,6 @@
 {
   "$GMProject":"v1",
-  "%Name":"Vulpes-Melhor",
+  "%Name":"Infernus",
   "AudioGroups":[
     {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -10,7 +10,7 @@
     ],
     "name":"Default",
   },
-  "defaultScriptType":1,
+  "defaultScriptType":0,
   "Folders":[
     {"$GMFolder":"","%Name":"Anotações","folderPath":"folders/Anotações.yy","name":"Anotações","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Caminhos","folderPath":"folders/Caminhos.yy","name":"Caminhos","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -80,7 +80,7 @@
   "MetaData":{
     "IDEVersion":"2024.14.4.222",
   },
-  "name":"Vulpes-Melhor",
+  "name":"Infernus",
   "resources":[
     {"id":{"name":"fim_restart","path":"objects/fim_restart/fim_restart.yy",},},
     {"id":{"name":"obj_acido","path":"objects/obj_acido/obj_acido.yy",},},
