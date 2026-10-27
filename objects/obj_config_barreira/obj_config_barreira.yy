@@ -32,5 +32,5 @@
     "path":"sprites/config/config.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

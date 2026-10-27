@@ -126,15 +126,6 @@ if(global.vida >= 8){
 	}
 #endregion
 
-#region vida
-if(global.vida <= 0){
-	room_restart()
-}
-if(global.vida >= 8){
-	global.vida = 7
-}
-#endregion
-
 #region sprites
 if(atirando == false){
     if(!tocando_chao){
