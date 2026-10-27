@@ -1,6 +1,6 @@
-global.vidaboss = 50
+global.vidaboss = 20
 dano = false
-global.vidabossMAX = 50
+global.vidabossMAX = 20
 morto = false
 
 raios_ativos = false
