@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_press_space",
+    "path":"sprites/spr_press_space/spr_press_space.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
