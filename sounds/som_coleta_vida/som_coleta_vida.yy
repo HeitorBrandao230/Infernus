@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"som_coleta_vida",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":18.625305,
+  "exportDir":"",
+  "name":"som_coleta_vida",
+  "parent":{
+    "name":"Sons",
+    "path":"folders/Sons.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"som_coleta_vida.mp3",
+  "volume":1.0,
+}

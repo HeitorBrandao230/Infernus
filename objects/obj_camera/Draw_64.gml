@@ -33,3 +33,14 @@ draw_set_valign(fa_middle);
 draw_text_transformed(px + larg / 2 + 10, py, string(global.conta_alma + global.conta_alma_aparente), escala, escala, 0);
 
 draw_set_valign(fa_top);
+
+
+#region boss
+    if (instance_exists(obj_boss)) {
+        var gx = display_get_gui_width() / 2;
+        var gy = 60;
+        var frame = clamp(20 - global.vidaboss, 0, 20);
+        draw_sprite(spr_barra_de_vida_boss, frame, gx, gy);
+    }
+#endregion
+
