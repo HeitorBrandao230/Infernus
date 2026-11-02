@@ -23,7 +23,7 @@
   ],
   "name":"spr_botao_verde_ativo",
   "nineSlice":null,
-  "origin":4,
+  "origin":1,
   "parent":{
     "name":"porta_botoes",
     "path":"folders/Sprites/porta_botoes.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":4,
-    "yorigin":1,
+    "yorigin":0,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
