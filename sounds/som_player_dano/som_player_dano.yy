@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"som_player_dano",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.20680273,
+  "exportDir":"",
+  "name":"som_player_dano",
+  "parent":{
+    "name":"efeito sonoro",
+    "path":"folders/Sons/efeito sonoro.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"som_player_dano.wav",
+  "volume":1.0,
+}

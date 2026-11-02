@@ -1,4 +1,2 @@
-/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-/// @DnDVersion : 1
-/// @DnDHash : 53A6F4A6
 instance_destroy();
+audio_play_sound(som_inimigo_dano, 0, 0, 1.0, undefined, 1.0);

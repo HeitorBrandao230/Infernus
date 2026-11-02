@@ -42,11 +42,13 @@ if(global.vida >= 8){
     if(keyboard_check_pressed(vk_up) && pulos < max_pulos && atirando == false){
         velocidade_y = -forca_pulo
         pulos += 1
+		audio_play_sound(som_player_jump, 0, 0, 1.0, undefined, 1.0);
     }
 
     if(keyboard_check_pressed(vk_space)){
         atirando = true
         sprite_index = spr_player_shot
+		audio_play_sound(som_player_shot, 0, 0, 1.0, undefined, 1.0);
         alarm_set(0, 15)
         if(global.direita == true){
             instance_create_layer(x + 6, y, "camada_projeteis", obj_tiro_player)

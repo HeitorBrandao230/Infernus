@@ -12,6 +12,7 @@
 	if(obj_player.x >= x - raio && obj_player.x <= x + raio){
 		if(temp == false){
 			temp = true
+			audio_play_sound(som_inimigo_tiro, 0, 0, 1.0, undefined, 1.0);
 			if(direita == true){
 				instance_create_layer(x-8, y+6,"camada_projeteis",obj_projetil_demonio)
 			}else{
