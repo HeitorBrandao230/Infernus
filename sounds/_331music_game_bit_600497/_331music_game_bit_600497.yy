@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"_331music_game_bit_600497",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":137.37796,
+  "exportDir":"",
+  "name":"_331music_game_bit_600497",
+  "parent":{
+    "name":"musicas",
+    "path":"folders/Sons/musicas.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"_331music_game_bit_600497.mp3",
+  "volume":1.0,
+}

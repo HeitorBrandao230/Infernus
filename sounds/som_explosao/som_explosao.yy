@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"som_explosao",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.51201814,
+  "exportDir":"",
+  "name":"som_explosao",
+  "parent":{
+    "name":"efeito sonoro",
+    "path":"folders/Sons/efeito sonoro.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"som_explosao.mp3",
+  "volume":1.0,
+}
