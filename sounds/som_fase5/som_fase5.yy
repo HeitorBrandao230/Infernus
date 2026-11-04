@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"som_fase5",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":122.64,
+  "exportDir":"",
+  "name":"som_fase5",
+  "parent":{
+    "name":"musicas",
+    "path":"folders/Sons/musicas.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"som_fase5.mp3",
+  "volume":1.0,
+}

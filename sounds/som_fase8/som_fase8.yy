@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"_331music_game_bit_600497",
+  "%Name":"som_fase8",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":137.37796,
+  "duration":33.984013,
   "exportDir":"",
-  "name":"_331music_game_bit_600497",
+  "name":"som_fase8",
   "parent":{
     "name":"musicas",
     "path":"folders/Sons/musicas.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"_331music_game_bit_600497.mp3",
+  "soundFile":"som_fase8.mp3",
   "volume":1.0,
 }

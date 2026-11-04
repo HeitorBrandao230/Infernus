@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":96.36,
+  "duration":29.952019,
   "exportDir":"",
   "name":"som_fase2",
   "parent":{
